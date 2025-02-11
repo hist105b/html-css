@@ -56,6 +56,18 @@ a {
     color: pink;
 }
 
+button {
+    border-radius: 10px;
+    background-color:blueviolet;
+    color: white;
+    font-size: 16px;
+    /* line-height: 36px; */
+    text-decoration: none;
+    display:inline-block;
+    padding: 15px 16px;
+    border:none;
+}
+
 /* responsive main text block */
 
 @media screen and (min-width: 800px) {
@@ -65,7 +77,6 @@ a {
         margin:auto;
         padding: 0 10%;
         display:block;
-
     }
 
     .textblock > div {
