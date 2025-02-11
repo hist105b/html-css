@@ -1,7 +1,113 @@
-h1 {
-    color:darkgreen;
+
+.title h1 {
+    color:rgb(142, 191, 142);
+    display: block;
+    text-align: center;
+    padding: 8px 8px;
 }
 
 img {
     max-width: 500px;
+}
+
+.nav {
+    background-color: pink;
+}
+
+header ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    padding: 14px 16px;
+    background: blue;
+    text-decoration: none;
+    color:white;
+}
+
+header li a:hover {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: black;
+    color:aliceblue;
+}
+
+main {
+    padding: 20px
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+a {
+    color: pink;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap:nowrap; */
+    /* background-color:white; */
+}
+
+.flex-container > div {
+    /* background-color: blueviolet; */
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+    /* text-align: center; */
+    /* line-height: 75px; */ 
+}
+
+@media screen and (max-width: 800px) { 
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-container > div {
+        width: auto;
+    }
+}
+
+
+
+img.col {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+
+    .textblock {
+        width: 75%;
+        margin:auto;
+        padding: 0 10%;
+        display:block;
+
+    }
+
+    .textblock > div {
+        text-align: left;
+        /* border-style: solid;
+        border-color:white; */
+    }
+}
+
+.location {
+    text-align: right;
+}
+
+.signature {
+    margin-left: 60px;
 }
