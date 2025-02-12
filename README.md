@@ -1,4 +1,4 @@
-# html-css
+# Simple Website Example
 
 Sample code for HTML & CSS tutorial
 
